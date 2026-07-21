@@ -60,9 +60,9 @@ pipeline {
 
                 kubectl delete all --all -n devsecops || true
                 kubectl apply -f deployment.yaml -n devsecops
-
+            '''
+        }
     }
-  }
 }
 
 	   
